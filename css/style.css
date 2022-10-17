@@ -1,0 +1,40 @@
+
+html, body {
+    height: 100%;
+}
+
+body{background: rgb(245, 245, 245);
+    margin: 0;
+    display: grid;
+    grid-template-rows: 70px auto 100px;
+    grid-template-columns: 250px auto;
+}
+header{
+    grid-row: 1;
+    grid-column: 1 / span 2 ;
+    background: #072ef0;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 10px 5px 10px 20px;
+}
+
+main{
+    background: #a2702d8d;
+    margin: 5px;
+}
+footer{
+    grid-row: 3;
+    grid-column: 1 / span 2 ;
+    background: rgb(118, 227, 227);
+    color: rgb(107, 167, 220);
+}
+footer{
+    padding: 0%;
+    margin: 0;
+}
